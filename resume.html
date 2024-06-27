@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/resume.css">
+</head>
+<body>
+    <header class="parallax-bg">
+        <div class="container text-center text-white">
+            <h1 class="display-4">John Doe</h1>
+            <p class="lead">Software Developer | Web Designer</p>
+        </div>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="profile.jpg" alt="John Doe" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-8">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm John Doe, a passionate software developer with over 5 years of experience...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Senior Developer</h3>
+                    <p>XYZ Company, 2020 - Present</p>
+                    <p>Developed various web applications using modern frameworks and technologies...</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Junior Developer</h3>
+                    <p>ABC Company, 2017 - 2020</p>
+                    <p>Worked on a team to design and implement web solutions for clients...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Skills</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <i class="bi bi-code-slash" style="font-size: 2rem;"></i>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript, React, Angular...</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="bi bi-brush" style="font-size: 2rem;"></i>
+                    <h3>Design</h3>
+                    <p>Photoshop, Illustrator, Figma...</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="bi bi-server" style="font-size: 2rem;"></i>
+                    <h3>Backend</h3>
+                    <p>Node.js, Express, MongoDB...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Contact</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/resume.js"></script>
+</body>
+</html>
