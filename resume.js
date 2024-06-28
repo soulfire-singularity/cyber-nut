@@ -1,7 +1,10 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const form = document.querySelector('form');
-    form.addEventListener('submit', (e) => {
-        e.preventDefault();
-        alert('Message sent!');
-    });
-});
+$(document).ready(function() {
+  AOS.init();
+  
+  new Typed('#typed', {
+    strings: ["Ethan Norman"],
+    typeSpeed: 100,
+    backSpeed: 25,
+    loop: false,
+    showCursor: false
+  });
