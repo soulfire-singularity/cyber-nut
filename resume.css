@@ -57,8 +57,17 @@ body {
     margin: 0;
 }
 
-#skills i {
-    margin-bottom: 10px;
+#skills .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#skills .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#skills .card:hover i {
+    transform: scale(1.2);
 }
 
 footer {
