@@ -1,5 +1,6 @@
 $(document).ready(function() {
   AOS.init();
+};
   
   new Typed('#typed', {
     strings: ["Ethan Norman"],
