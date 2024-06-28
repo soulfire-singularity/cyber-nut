@@ -20,6 +20,7 @@ body, html{
     justify-content: center;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    width: 100%; /* Ensure header takes full width */
 }
 
 section {
@@ -30,6 +31,7 @@ padding: 0 15px; /* Add padding to avoid overflow from content */
     position: relative;
     margin: 0;
     padding: 0;
+    width: 100%; /* Ensure header takes full width */
 }
 
 .timeline::before {
@@ -93,4 +95,5 @@ footer {
     background: #222;
     color: #fff;
     padding: 20px 0;
-}
+    width: 100%; /* Ensure header takes full width */
+} 
