@@ -25,6 +25,13 @@ body, html{
     -webkit-filter: blur(8px);
   
 }
+.z-index-top {
+align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
 
 section {
 padding: 0 15px; /* Add padding to avoid overflow from content */
