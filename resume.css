@@ -15,25 +15,22 @@ body, html{
     background: url('https://github.com/soulfire-singularity/cyber-nut/assets/81447958/5c6613de-c8a8-4163-b544-abc126bf1fae') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
+    width: 100%; /* Ensure header takes full width */
+    filter: blur(5px); /* Add blur effect here */
+  
+}
+.parallax-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-    width: 100%; /* Ensure header takes full width */
-    
-  
-}
-.effect {
-  backdrop-filter: blur(15px) saturate(100%);
-  -webkit-backdrop-filter: blur(15px) saturate(100%);
-  background-color: rgba(39, 39, 39, 0.15);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the overlay to ensure text readability */
 }
 section {
 padding: 0 15px; /* Add padding to avoid overflow from content */
