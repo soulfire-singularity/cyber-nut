@@ -17,22 +17,27 @@ body, html{
     background-attachment: fixed;
     background-position: center;
     height: 100vh;
+    position: absolute;
+    z-index: -1;
     width: 100%; /* Ensure header takes full width */
     filter: blur(5px); /* Add blur effect here */
   
 }
 .parallax-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    position: relative;
+    z-index: 1;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.5); /* Adjust the overlay to ensure text readability */
+}
+.parallax-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
 }
 section {
 padding: 0 15px; /* Add padding to avoid overflow from content */
