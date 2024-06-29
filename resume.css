@@ -105,15 +105,6 @@ padding: 0 15px; /* Add padding to avoid overflow from content */
     transform: scale(1.2);
 }
 
-#follow-me i {
-    transition: transform 0.3s, color 0.3s;
-}
-
-#follow-me a:hover i {
-    transform: scale(1.2);
-    color: #007bff;
-}
-
 footer {
     background: #222;
     color: #fff;
