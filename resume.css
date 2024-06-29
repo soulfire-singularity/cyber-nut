@@ -12,6 +12,7 @@ body, html{
 }
 .btn-lightgreen {
 background-color: #b3ff66 !important;
+text: black !important;
 }
 .parallax-bg {
     background: url('https://github.com/soulfire-singularity/cyber-nut/assets/81447958/76692a30-1454-40ad-a1fe-e571ff22f40c') no-repeat center center fixed;
