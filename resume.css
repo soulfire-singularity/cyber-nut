@@ -27,8 +27,8 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     filter: blur(5px); /* Add blur effect here */
   
 }
-i {
-text: #709900 !important;
+.text-dark-green {
+color: #709900 !important;
 }
 .parallax-content {
     position: relative;
