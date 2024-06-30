@@ -117,7 +117,8 @@ section {
     transform: scale(1.2);
 }
 .follow-icon-wrapper{
-    width: 50%;
+    width: 20%;
+    margin-left: 50%;
 
 }
 .follow-icon-animation {
