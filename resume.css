@@ -10,6 +10,10 @@ body, html{
     overflow-x: hidden; /* Prevent horizontal overflow */
     width: 100%; /* Ensure the body and html take full width */
 }
+ 
+.text-dark-green{
+    background-color: #709900;
+}
 
 .parallax-bg {
     background: url('https://github.com/soulfire-singularity/cyber-nut/assets/81447958/76692a30-1454-40ad-a1fe-e571ff22f40c') no-repeat center center fixed;
