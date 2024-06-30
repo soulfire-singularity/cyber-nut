@@ -12,7 +12,7 @@ body, html{
 }
  
 .text-dark-green{
-    background-color: #709900;
+    color: #709900;
 }
 
 .parallax-bg {
@@ -115,7 +115,9 @@ section {
 #skills .card:hover i {
     transform: scale(1.2);
 }
-
+.follow-icon-wrapper{
+    padding:0%;
+}
 .follow-icon-animation {
     transition: transform 0.3s, box-shadow 0.3s;
 }
