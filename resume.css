@@ -117,6 +117,7 @@ section {
     transform: scale(1.2);
 }
 .follow-icon-wrapper{
+    display: inline-block;
     width:30%;
     margin-left: 60px;
     border-radius: 10px;
