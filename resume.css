@@ -118,10 +118,9 @@ section {
 }
 .follow-icon-wrapper{
     display: inline-block;
-    width:30%;
-    margin-left: 60px;
     border-radius: 10px;
     border: solid #709900 3px;
+    padding: 10px;
 
 }
 .follow-icon-animation {
