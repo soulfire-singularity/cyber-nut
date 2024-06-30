@@ -1,25 +1,14 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body, html{
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal overflow */
-  width: 100%; /* Ensure the body and html take full width */
-}
-.btn-lightgreen {
-background-color: #709900 !important;
-color: black !important;
-margin-top: 5px;
-transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.btn-lightgreen:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Ensure the body and html take full width */
 }
 
 .parallax-bg {
@@ -34,9 +23,7 @@ transition: transform 0.3s, box-shadow 0.3s;
     filter: blur(5px); /* Add blur effect here */
   
 }
-.text-dark-green {
-color: #709900 !important;
-}
+
 .parallax-content {
     position: relative;
     z-index: 1;
@@ -54,7 +41,7 @@ color: #709900 !important;
     overflow: hidden;
 }
 section {
-padding: 0 15px; /* Add padding to avoid overflow from content */
+    padding: 0 15px; /* Add padding to avoid overflow from content */
 }
 
 .timeline {
@@ -99,6 +86,18 @@ padding: 0 15px; /* Add padding to avoid overflow from content */
     margin: 0;
 }
 
+.btn-lightgreen {
+    background-color: #709900 !important;
+    color: black !important;
+    margin-top: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+.btn-lightgreen:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 #skills .card {
     transition: transform 0.3s, box-shadow 0.3s;
   border: solid 3px #709900 !important;
@@ -111,6 +110,15 @@ padding: 0 15px; /* Add padding to avoid overflow from content */
 
 #skills .card:hover i {
     transform: scale(1.2);
+}
+
+.follow-icon-animation {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.follow-icon-animation:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 footer {
