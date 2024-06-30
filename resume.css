@@ -104,9 +104,6 @@ padding: 0 15px; /* Add padding to avoid overflow from content */
 #skills .card:hover i {
     transform: scale(1.2);
 }
-#follow-me a {
-color: #709900 !important;
-}
 
 footer {
     background: #222;
