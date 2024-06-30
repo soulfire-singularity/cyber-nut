@@ -64,7 +64,7 @@ padding: 0 15px; /* Add padding to avoid overflow from content */
     left: 50%;
     width: 3px;
     height: 100%;
-    background: #709900;
+    background-color: #709900;
 }
 
 .timeline-item {
